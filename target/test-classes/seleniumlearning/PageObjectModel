@@ -1,0 +1,19 @@
+Page Object Model :
+> Design Pattern 
+> Consider each module / Screen / wpage as java class file .
+
+
+Avantage :
+Easy Maintenance 
+Code reusability
+
+Doucemnetation will be better 
+
+
+
+PageFactory 
+@FindBy is used to locate the webelement 
+
+@FindBy(name="UName") WebElement username ;
+
+inittElements() 

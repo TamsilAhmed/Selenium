@@ -1,0 +1,62 @@
+<html>
+<body>
+ <title>Student Registration Form</title>
+<h1>REGISTRATION FORM</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend></legend>
+<h3>STUDENT DETAILS</h3>
+
+
+ <label for="fname">First name </label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last name </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <br>
+
+  
+   <label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br><br>
+<br>
+
+<label for="Gender">Gender:</label>
+
+<select name="Gender" id="Genders">
+ <option value="" selected="selected" disabled="disabled">--  --</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+  </select><br><br>
+  <br>
+  <h3>Student Image</h3>
+ <!DOCTYPE html>
+
+      <input type="file" accept="image/*" onchange="loadFile(event)">
+      <p><img id="output" width="200"/></p>
+      <script>
+          var loadFile = function(event) {
+              var image = document.getElementById('output');
+              image.src=URL.createObjectURL(event.target.files[0]);
+          };
+      </script>
+  
+    </form><br><br>
+<br>
+<br><label for="adress">Address:</label>
+
+<br><textarea id="Address" name="Address" rows="3" cols="50">
+</textarea>
+<br><br>
+<body>
+ <a href="file:///C:/Users/Tamsil%20Ahmed/eclipse-workspace/Javalearning/src/html/webpage1.html" title="Next">Next Page</a>
+
+ </fieldset>
+</form>
+
+</body>
+</html>
+
+
+
+
