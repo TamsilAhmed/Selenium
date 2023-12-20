@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ex2 extends base {
+public class ex2 extends base1 {
 	
 WebDriver driver;
 	@Test
